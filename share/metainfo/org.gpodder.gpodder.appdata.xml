@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.gpodder.gpodder</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <name>gPodder</name>
+  <summary>Media aggregator and podcast client</summary>
+  <description>
+    <p>gPodder lets you manage your Podcast subscriptions, discover new content and download episodes to your devices.</p>
+    <p>You can also take advantage of the service gpodder.net, which lets you sync subscriptions, playback progress and starred episodes.</p>
+  </description>
+  <launchable type="desktop-id">org.gpodder.gpodder.desktop</launchable>
+  <developer id="org.gpodder">
+    <name>The gPodder Team</name>
+  </developer>
+  <url type="homepage">https://www.gpodder.org</url>
+  <url type="bugtracker">https://github.com/gpodder/gpodder/issues</url>
+  <url type="vcs-browser">https://github.com/gpodder/gpodder</url>
+  <provides>
+    <binary>gpodder</binary>
+    <id>gpodder.desktop</id>
+  </provides>
+  <content_rating type="oars-1.1"/>
+  <screenshots>
+    <screenshot type="default">
+      <caption>The main window</caption>
+      <image>https://raw.githubusercontent.com/flathub/org.gpodder.gpodder/master/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+  <releases>
+    <release version="3.11.5" date="2024-12-17">
+      <description>
+        <p>Changes:</p>
+        <ul>
+          <li>Replace context GtkMenus with GtkPopovers (#1293)</li>
+          <li>Add PotPlayer Support For Windows (#1583)</li>
+          <li>New subscription statistics extension (#1590)</li>
+          <li>Group subscriptions in OPML import/export (#1658)</li>
+          <li>Add `path.alternate` setting so users can append to PATH inside gpodder (#1649)</li>
+          <li>Limit the length of UTF-8 filenames (#1645)</li>
+          <li>Sort episodes by published date when sending to folder (#1624)</li>
+          <li>Add view menu podcast and episode list checkboxes to preferences (#1618)</li>
+          <li>New podverse search extension (#1615)</li>
+          <li>SendTo automatic rename filename (#1620)</li>
+          <li>Add socks proxy to settings and network tab in Preferences (#1592)</li>
+          <li>Extract YouTube channel ID from URL (#1603)</li>
+          <li>Modernize userappsdirs (#1601)</li>
+          <li>Add color scheme (dark and light mode) support (#1595)</li>
+          <li>Change %d to %ld in Windows launcher (#1589)</li>
+       <li>Add forceDownload action to Downloads context menu and toolbar</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.11.4" date="2023-10-11">
+      <description>
+        <p>This release only updates dependencies in the Windows and Mac builds</p>
+      </description>
+    </release>
+    <release version="3.11.3" date="2023-09-30">
+      <description>
+        <p>Bug fixes and minor improvements</p>
+      </description>
+    </release>
+    <release version="3.11.2" date="2023-08-13">
+      <description>
+        <p>Major changes:</p>
+        <ul>
+          <li>show episode release time</li>
+          <li>fix crash when syncing</li>
+          <li>don't reposition maximised windows</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.11.1" date="2023-02-18">
+      <description>
+        <p>Major changes:</p>
+        <ul>
+          <li>new yt-dlp to fix the recent YouTube change</li>
+          <li>fix multiple bugs that caused gPodder to freeze or appear frozen</li>
+          <li>embed subtitles in videos with youtube-dl extension</li>
+          <li>performance improvements</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.11.0" date="2022-07-30">
+      <description>
+        <p>This release contains a year's worth of improvements. Major changes:</p>
+        <ul>
+          <li>Warning: There is a database schema update (See "Moving to an older gPodder release" in the user manual at gpodder.github.io for how to rollback)</li>
+          <li>Numerous bug fixes</li>
+          <li>Performance improvements</li>
+          <li>A new preferences dialog</li>
+          <li>Support again syncing to mtp:// and iPod devices on Linux</li>
+        </ul>
+      </description>
+    </release>
+    <release version="3.10.21" date="2021-07-20"/>
+    <release version="3.10.20" date="2021-06-06"/>
+    <release version="3.10.19" date="2021-04-15"/>
+    <release version="3.10.17" date="2020-11-23"/>
+    <release version="3.10.13" date="2020-01-29"/>
+    <release version="3.10.12" date="2020-01-25"/>
+    <release version="3.10.11" date="2019-09-29"/>
+    <release version="3.10.10" date="2019-09-27"/>
+    <release version="3.10.9" date="2019-06-09"/>
+    <release version="3.10.8" date="2019-04-08"/>
+    <release version="3.10.7" date="2019-02-02"/>
+    <release version="3.10.6" date="2018-12-29"/>
+    <release version="3.10.5" date="2018-09-15">
+      <description>
+        <p>This is a bugfix release, shortly after 3.10.4, for the Rename after Download extension.</p>
+      </description>
+    </release>
+    <release version="3.10.4" date="2018-09-09"/>
+    <release version="3.10.3" date="2018-06-14"/>
+    <release version="3.10.2" date="2018-06-10"/>
+    <release version="3.10.1" date="2018-02-19"/>
+    <release version="3.10.0" date="2017-12-29"/>
+    <release version="3.9.6" date="2017-12-29"/>
+    <release version="3.9.5" date="2017-12-16"/>
+    <release version="3.9.4" date="2017-12-16"/>
+    <release version="3.9.3" date="2016-12-22"/>
+    <release version="3.9.2" date="2016-11-30"/>
+    <release version="3.9.1" date="2016-08-31"/>
+    <release version="3.9.0" date="2016-02-03"/>
+  </releases>
+</component>
